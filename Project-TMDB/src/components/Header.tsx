@@ -6,7 +6,9 @@ function Header() {
   return (
     <header className="header">
       <div className="header__menu">
-        <FontAwesomeIcon icon={faBars} className="menu__icon" />
+        <button className='menu__button'>
+          <FontAwesomeIcon icon={faBars} className="menu__icon" />
+        </button>
       </div>
       <div className="header__title">
         <FontAwesomeIcon icon={faPhotoFilm} className="title__icon" />
@@ -18,7 +20,9 @@ function Header() {
         </div>
       </div>
       <div className="header__user">
-        <FontAwesomeIcon icon={faUser} className="user__icon" />
+        <button className='user__button'>
+          <FontAwesomeIcon icon={faUser} className="user__icon" />
+        </button>
       </div>
     </header>
   )

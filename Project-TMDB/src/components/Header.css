@@ -1,8 +1,25 @@
 .header,
 .header__title {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  padding: 5px 5px 4px 5px;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 2px solid var(--secondary-color);
 }
 .title__name h1 {
   display: flex;
   flex-direction: column;
+  font-size: 1.2em;
+}
+.header__title {
+  gap: 10px;
+  color: var(--secondary-color);
+}
+.menu__button, .user__button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.11em;
 }
