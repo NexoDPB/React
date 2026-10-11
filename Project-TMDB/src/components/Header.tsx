@@ -2,11 +2,12 @@ import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faPhotoFilm } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
+
 function Header() {
   return (
     <header className="header">
       <div className="header__menu">
-        <button className='menu__button'>
+        <button className="menu__button">
           <FontAwesomeIcon icon={faBars} className="menu__icon" />
         </button>
       </div>
@@ -20,7 +21,7 @@ function Header() {
         </div>
       </div>
       <div className="header__user">
-        <button className='user__button'>
+        <button className="user__button">
           <FontAwesomeIcon icon={faUser} className="user__icon" />
         </button>
       </div>
