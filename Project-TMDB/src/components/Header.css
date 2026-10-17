@@ -24,3 +24,6 @@
   border: none;
   font-size: 1.11em;
 }
+.menu__icon, .user__icon {
+  color: var(--tertiary-color);
+}

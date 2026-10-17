@@ -5,11 +5,12 @@
   align-items: center;
   gap: 5px;
   margin-top: 8px;
+}
+.filter__genre, .filter__title {
   width: 85vw;
-  justify-self: center;
+
 }
 .filter__title {
-  width: 100%;
   height: 33px;
   display: flex;
   align-items: center;
@@ -24,11 +25,18 @@
   outline: none;
   background: transparent;
   flex: 1 1 0;
+  color: var(--tertiary-color);
 }
 .movie__title::placeholder {
   font-size: 14px;
-  color: rgb(254, 254, 254);
+  color: var(--tertiary-color);
 }
 .search__icon {
   color: var(--secondary-color);
+}
+.filter__genre {
+  text-align: end;
+}
+.select__genre {
+  outline: none;
 }
