@@ -1,3 +1,4 @@
+// * https://developer.themoviedb.org/reference/getting-started
 export interface Genre {
   id: number
   name: string
@@ -12,6 +13,6 @@ export interface Movie {
 }
 export interface PaginatedResponse<T> {
   page: number
-  result: T[]
+  results: T[]
   total_pages: number
 }
