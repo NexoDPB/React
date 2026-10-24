@@ -1,11 +1,13 @@
-import './App.css'
-import Header from './components/Header.tsx'
-import SearchBar from './components/SearchBar.tsx'
+import Header from './components/Header'
+import SearchBar from './components/SearchBar'
+import HomePage from './pages/HomePage'
+
 function App() {
   return (
     <>
       <Header />
       <SearchBar />
+      <HomePage />
     </>
   )
 }
